@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.hollywoodreporter.com/wp-content/uploads/2012/12/img_logo_blue.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://www.hollywoodreporter.com/wp-content/uploads/2012/12/img_logo_blue.jpg"
+      type="image/x-icon"
+    />
+    <style>
+        ul{
+            display: flex;
+           
+        }
+        ul li{
+            list-style: none;
+            padding: 10px;
+
+        }
+        
+        ol{
+            display: none;
+        }
+        ul li:hover ol{
+            display: block;
+        }
+
+    </style>
+    
+  </head>
+  <body>
+    <h2 style="text-align: center; color: burlywood; background-color: black">
+      This is a ul and li
+    </h2>
+
+    <ul class="ul1" type="A">
+      <li >main1</li>
+      <li>main2</li>
+      <li class="hoo">
+        main3
+        <ol type="A">
+          <li>sub1</li>
+          <li>sub2
+            <ol type="i">
+                <li>sub1</li>
+                <li>sub2</li>
+                <li>sub3</li>
+              </ol>
+          </li>
+          <li>sub3</li>
+        </ol>
+      </li>
+      <li>main4</li>
+    </ul>
+    <dl>
+        <li>hi</li>
+        <li>hi</li>
+        <li>hi</li>
+        <li>hi</li>
+    </dl>
+    <dd>
+        <li>3424</li>
+        <li>3424</li>
+        <li>3424</li>
+        <li>3424</li>
+    </dd>
+  </body>
+</html>
